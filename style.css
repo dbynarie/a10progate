@@ -332,8 +332,8 @@ textarea {
         
 button {
     padding: 15px 70px;
-    background-color: #11dd0a;
-    color: purple;
+    background-color: salmon;
+    color: #4f4f4f;
     font-size: 22px;
     cursor: pointer;
     box-shadow: 0 8px purple;
