@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* AWAL HEADER */
+header {
+    height: 80px;
+}
+
+header .logo {
+    color: purple;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    letter-spacing: -2px;
+}
+
+span {
+    color: salmon;
+}
+
+header .nav {
+    
+    float: right;
+    margin-right: 60px;
+}
+
+.nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 15px;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: salmon;
+}
+
+.nav .login {
+    background-color: salmon;
+    border-radius: 17px;
+    padding: 15px 30px;
+    color: white;
+    padding-left: 20px;
+}
+
+.nav .login:hover {
+    background-color: rgb(250, 75, 56);
+    color: white;
+}
+
+/* AKHIR HEADER */
+
+/* AWAL BANNER */
+/*content 1*/
+.top-banner {
+    height: 480px;
+}
+
+.top-banner img {
+    margin-left: 80px;
+}
+
+.top-banner h2 {
+    font-size: 28px;
+}
+
+.banner {
+    color:#2c3e50;
+    letter-spacing: 1px;
+    float: right;
+    margin-top: 100px;
+    line-height: 30px;
+    margin-right: 75px;
+}
+
+.btn-banner {
+    display: flex;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.btn-order {
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    background-color: salmon;
+    color: #fff;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 3px 7px #333;
+}
+
+.btn-template {
+    font-weight: 100;
+    border: 2px solid #333;
+    height: 50px;
+    width: 200px;
+    color: #333;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.btn-template:hover {
+    background-color: rgb(158, 208, 240);
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-order:active {
+    box-shadow: none;
+    top: 7px;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+}
+
+.umum {
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* AKHIR BANNER */
+
+/* Content */
+.clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+    
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    background-color:white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: grey;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    font-size: 50px;
+    border-bottom: 4px solid black;
+    text-align: center;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+    padding-bottom:100px;
+    padding-right: 20px;
+  }
+
+  .lesson p {
+    padding-bottom: 10px;
+  }
+
+  .btn-down{
+    height:50px;
+    width:50px;
+    padding-bottom: 5px;
+  }
+ .lesson h3{
+   font-size:25px;
+    color:gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+ }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+    padding-top:2px;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  .lesson p{
+      color: grey;
+  }
+
+  .lesson p, a{
+      padding-top:10px;
+  }
+  .lesson a{
+      color:black;
+      cursor: pointer;
+  }
+
+  .lesson div{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 10%;
+    background-color: white;
+    padding-left:10px;
+ 
+  }
+  .lesson img{
+      width:150px;
+      height:150px;
+
+  }
+
+  .lesson div:hover{
+      animation-name: example;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      box-shadow : 0 16px 25px 0 rgba(0, 0, 0, 2);
+  }
+  @keyframes example{
+    from {background-color:white;}
+    to{background-color: #4696ff;}
+}
+
+ 
+
+  /*.lesson img:active{
+    box-shadow:none;
+    position:relative;
+    top: 7px;;
+  }*/
+
+
+/* Footer */
+footer {
+            height: 280px;
+            color: #fff;
+            background-color: rgb(27, 22, 22);
+            font-family: 'Prompt', sans-serif;
+            margin-top: 10px;
+        }
+        
+        .footer-left {
+            float: left;
+        }
+        
+        .footer-left h2 {
+            color: rgb(184, 183, 183);
+            font-family: 'Times New Roman', Times, serif;
+            padding: 50px 0 0px 70px;
+            font-size: 35px;
+        }
+        
+        .footer-right {
+            padding: 25px 0px 50px 500px;
+        }
+        
+        .location {
+            padding-right: 100px;
+            float: left;
+        }
+        
+        .fa {
+            padding-right: 10px;
+        }
+        
+        .copyright {
+            font-size: smaller;
+            padding: 70px 0px 10px 72px;
+        }
+        
+        form {
+            height: 400px;
+            padding-top: 40px;
+            padding-bottom: 80px;
+            background-color: rgb(192, 192, 192);
+            text-align: center;
+        }
+        
+        .contact-title {
+            font-size: 28px;
+            padding-bottom: 10px;
+        }
+        
+        input,
+        textarea {
+            width: 600px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            padding: 20px;
+            font-size: 18px;
+            border: 0px;
+            background-color: #ffffff;
+            border-radius: 15px;
+        }
+        
+         ::placeholder {
+            font-family: "Avenir Next";
+            color: #7C7D83;
+        }
+        
+        button {
+            padding: 15px 70px;
+            background-color: #11dd0a;
+            color: #4f4f4f;
+            font-size: 22px;
+            cursor: pointer;
+            box-shadow: 0 8px #178813;
+            border-radius: 10px;
+        }
+        
+        button:hover {
+            opacity: 0.8;
+        }
+        
+        button:active {
+            box-shadow: none;
+            position: relative;
+            top: 8px;
+        }
