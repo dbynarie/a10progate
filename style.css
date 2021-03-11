@@ -333,10 +333,10 @@ textarea {
 button {
     padding: 15px 70px;
     background-color: #11dd0a;
-    color: #4f4f4f;
+    color: purple;
     font-size: 22px;
     cursor: pointer;
-    box-shadow: 0 8px #178813;
+    box-shadow: 0 8px purple;
     border-radius: 10px;
 }
         
