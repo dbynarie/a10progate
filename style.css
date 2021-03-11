@@ -150,110 +150,111 @@ header .nav {
 /* Content */
 .clear {
     clear: left;
-  }
+}
   
-  .container {
+.container {
     max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
-  }
+}
     
-  .lesson-wrapper {
+.lesson-wrapper {
     padding-bottom: 80px;
     background-color:white;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-  }
+}
   
-  .heading {
+.heading {
     padding-top: 80px;
     padding-bottom: 50px;
     color: grey;
-  }
+}
   
-  .heading h2 {
+.heading h2 {
     font-weight: normal;
     font-size: 50px;
     border-bottom: 4px solid black;
     text-align: center;
-  }
+}
   
-  .lesson {
+.lesson {
     float: left;
     width: 25%;
     padding-bottom:100px;
     padding-right: 20px;
-  }
+}
 
-  .lesson p {
+.lesson p {
     padding-bottom: 10px;
-  }
+}
 
-  .btn-down{
+.btn-down{
     height:50px;
     width:50px;
     padding-bottom: 5px;
-  }
- .lesson h3{
-   font-size:25px;
+}
+
+.lesson h3{
+    font-size:25px;
     color:gray;
     padding-bottom: 10px;
     padding-top: 10px;
- }
+}
   
-  .text-contents {
+.text-contents {
     width: 80%;
     display: inline-block;
     margin-top: 15px;
     font-size: 15px;
     color: #b3aeb5;
     padding-top:2px;
-  }
+}
   
-  .heading h3 {
+.heading h3 {
     font-weight: normal;
-  }
-  .lesson p{
-      color: grey;
-  }
+}
 
-  .lesson p, a{
-      padding-top:10px;
-  }
-  .lesson a{
-      color:black;
-      cursor: pointer;
-  }
+.lesson p{
+    color: grey;
+}
 
-  .lesson div{
+.lesson p, a{
+    padding-top:10px;
+}
+
+.lesson a{
+    color:black;
+    cursor: pointer;
+}
+
+.lesson div{
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
     border-radius: 10%;
     background-color: white;
     padding-left:10px;
- 
-  }
-  .lesson img{
-      width:150px;
-      height:150px;
+}
 
-  }
+.lesson img{
+     width:150px;
+     height:150px;
+}
 
-  .lesson div:hover{
-      animation-name: example;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-      box-shadow : 0 16px 25px 0 rgba(0, 0, 0, 2);
-  }
-  @keyframes example{
+.lesson div:hover{
+     animation-name: example;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     box-shadow : 0 16px 25px 0 rgba(0, 0, 0, 2);
+}
+
+@keyframes example{
     from {background-color:white;}
     to{background-color: #4696ff;}
 }
-
- 
 
   /*.lesson img:active{
     box-shadow:none;
@@ -264,88 +265,88 @@ header .nav {
 
 /* Footer */
 footer {
-            height: 280px;
-            color: #fff;
-            background-color: rgb(27, 22, 22);
-            font-family: 'Prompt', sans-serif;
-            margin-top: 10px;
-        }
+    height: 280px;
+    color: #fff;
+    background-color: rgb(27, 22, 22);
+    font-family: 'Prompt', sans-serif;
+    margin-top: 10px;
+}
         
-        .footer-left {
-            float: left;
-        }
+.footer-left {
+    float: left;
+}
         
-        .footer-left h2 {
-            color: rgb(184, 183, 183);
-            font-family: 'Times New Roman', Times, serif;
-            padding: 50px 0 0px 70px;
-            font-size: 35px;
-        }
+.footer-left h2 {
+    color: rgb(184, 183, 183);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 0 0px 70px;
+    font-size: 35px;
+}
         
-        .footer-right {
-            padding: 25px 0px 50px 500px;
-        }
+.footer-right {
+    padding: 25px 0px 50px 500px;
+}
+       
+.location {
+    padding-right: 100px;
+    float: left;
+}
         
-        .location {
-            padding-right: 100px;
-            float: left;
-        }
+.fa {
+    padding-right: 10px;
+}
         
-        .fa {
-            padding-right: 10px;
-        }
+.copyright {
+    font-size: smaller;
+    padding: 70px 0px 10px 72px;
+}
         
-        .copyright {
-            font-size: smaller;
-            padding: 70px 0px 10px 72px;
-        }
+form {
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: rgb(192, 192, 192);
+    text-align: center;
+}
         
-        form {
-            height: 400px;
-            padding-top: 40px;
-            padding-bottom: 80px;
-            background-color: rgb(192, 192, 192);
-            text-align: center;
-        }
+.contact-title {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
         
-        .contact-title {
-            font-size: 28px;
-            padding-bottom: 10px;
-        }
+input,
+textarea {
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 18px;
+    border: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
         
-        input,
-        textarea {
-            width: 600px;
-            margin-top: 10px;
-            margin-bottom: 15px;
-            padding: 20px;
-            font-size: 18px;
-            border: 0px;
-            background-color: #ffffff;
-            border-radius: 15px;
-        }
+::placeholder {
+    font-family: "Avenir Next";
+    color: #7C7D83;
+}
         
-         ::placeholder {
-            font-family: "Avenir Next";
-            color: #7C7D83;
-        }
+button {
+    padding: 15px 70px;
+    background-color: #11dd0a;
+    color: #4f4f4f;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 8px #178813;
+    border-radius: 10px;
+}
         
-        button {
-            padding: 15px 70px;
-            background-color: #11dd0a;
-            color: #4f4f4f;
-            font-size: 22px;
-            cursor: pointer;
-            box-shadow: 0 8px #178813;
-            border-radius: 10px;
-        }
+button:hover {
+    opacity: 0.8;
+}
         
-        button:hover {
-            opacity: 0.8;
-        }
-        
-        button:active {
-            box-shadow: none;
-            position: relative;
-            top: 8px;
-        }
+button:active {
+    box-shadow: none;
+    position: relative;
+    top: 8px;
+}
